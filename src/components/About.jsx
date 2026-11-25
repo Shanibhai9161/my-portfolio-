@@ -4,24 +4,31 @@ import { Briefcase, GraduationCap, Code2, Laptop } from 'lucide-react';
 export default function About() {
   const journey = [
     {
-      year: "2022 - 2023",
-      title: "Baccalauréat SVT",
-      subtitle: "Lycée Qualifiant Lamhamid 9 - Marrakech",
-      description: "Sciences de la Vie et de la Terre (SVT) diploma with a focus on analytical thinking and scientific logic.",
+      year: "2019",
+      title: "High School ",
+      subtitle: "Shri Sita Ram Adarsh Inter College Nagar Basti",
+      description: "Shri Sita Ram Adarsh Inter College is committed to providing quality education, developing students' skills, building confidence, and creating a bright future through knowledge, discipline, and moral values.",
       icon: <GraduationCap className="w-5 h-5 text-purple-400" />
     },
     {
-      year: "2023",
-      title: "Formation Bureautique",
-      subtitle: "Ecole JAH Informatique Plus",
-      description: "Mastered office automation tools including Microsoft Word, Excel, and PowerPoint for professional tasks.",
+      year: "2021",
+      title: "Intermediate ",
+      subtitle: "RP. Adarsh Inter College, Nagar Basti",
+      description: "Completed Intermediate education with a focus on academic learning, knowledge development, and personal growth. Gained essential skills, confidence, and a strong foundation for future career opportunities.",
       icon: <Laptop className="w-5 h-5 text-purple-400" />
     },
     {
-      year: "2024 - 2026",
-      title: "Technicien Spécialisé en Développement Digital",
-      subtitle: "ISTA NTIC SYBA - Marrakech",
-      description: "Specialized in Web Full Stack development with hands-on experience in building modern web applications.",
+      year: "2022",
+      title: "Diploma",
+      subtitle: "GCRG College of Polytechnic, Lucknow (UP)",
+      description: "Pursued a Diploma in Civil Engineering from GCRG College of Polytechnic, gaining technical knowledge and practical skills. Alongside my studies, I developed an interest in Full Stack Web Development and started learning web technologies, programming, and software development to expand my technical skills and explore new career opportunities.",
+      icon: <GraduationCap className="w-5 h-5 text-purple-400" />
+    },
+    {
+      year: "Currently pursuing ",
+      title: "Bachelor of Computer Applications (BCA) ",
+      subtitle: "KS Saket PG College, Ayodhya–Faizabad ",
+      description: "Currently pursuing a Bachelor of Computer Applications (BCA), focusing on computer science, programming, and software development. Actively enhancing my technical skills in Full Stack Web Development, learning modern web technologies, and building practical projects to strengthen my knowledge and prepare for a career in the IT industry.",
       icon: <GraduationCap className="w-5 h-5 text-purple-400" />
     },
     // {
@@ -48,11 +55,11 @@ export default function About() {
 </div>
 
   <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-3">
-    NOUHAILA <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">EL HADDIOUI</span>
+    RAMAKANT <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">YADAV</span>
   </h1>
 
   <p className="text-gray-400 text-sm sm:text-base md:text-lg max-w-xl leading-relaxed">
-    Full-Stack Web Developer based in Marrakech, Morocco.
+    Full-Stack Web Developer based in Sohna, Gurgaon, Haryana, India.
   </p>
 </div>
 
@@ -63,7 +70,7 @@ export default function About() {
             <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden border-2 border-purple-500/50 flex-shrink-0">
               <img 
                 src="/l.jpeg" 
-                alt="Nouhaila EL HADDIOUI" 
+                alt="RAMAKANT YADAV" 
                 className="w-full h-full object-cover"
                 onError={(e) => { e.target.src = "https://via.placeholder.com/150"; }}
               />

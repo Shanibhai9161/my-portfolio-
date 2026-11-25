@@ -89,7 +89,7 @@ export default function Hero() {
           <p className="text-gray-300 text-base sm:text-lg max-w-lg leading-relaxed">
             Building seamless digital experiences where clean{' '}
             <span className="text-purple-400 font-semibold">Full-Stack</span> code meets intuitive{' '}
-            <span className="text-purple-400 font-semibold">UI/UX design</span>. Based in Morocco.
+            <span className="text-purple-400 font-semibold">UI/UX design</span>. Based in Sohna, Gurgaon, Haryana, India.
           </p>
 
           <div className="flex flex-wrap justify-center lg:justify-start gap-4 pt-2 w-full">
@@ -101,8 +101,8 @@ export default function Hero() {
             </Link>
 
             <a
-href={process.env.PUBLIC_URL + "/EL_HADDIOUI_Nouhaila_Fr.pdf"}
-              download="Nouhaila_ELHADDIOUI_CV.pdf"
+href={process.env.PUBLIC_URL + "/RAMAKANT YADAV RESUME.pdf"}
+              download="RAMAKANT_YADAV_RESUME.pdf"
               className="border border-gray-700 bg-black/40 backdrop-blur-sm text-gray-300 px-8 py-3.5 rounded-full font-semibold hover:bg-gray-800 hover:text-white hover:border-purple-500/50 transition flex items-center gap-2 cursor-pointer shadow-[0_0_15px_rgba(0,0,0,0.3)]"
             >
               Download CV <FaDownload className="text-xs" />
@@ -111,7 +111,7 @@ href={process.env.PUBLIC_URL + "/EL_HADDIOUI_Nouhaila_Fr.pdf"}
 
           <div className="flex items-center justify-center lg:justify-start gap-6 text-gray-300 text-xl pt-4">
             <a 
-              href="https://github.com/Nouhailacodes" 
+              href="https://github.com/shanibhai9161" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="w-12 h-12 rounded-full bg-black/50 border border-white/10 backdrop-blur-md flex items-center justify-center hover:text-purple-400 hover:border-purple-500/50 hover:shadow-[0_0_15px_rgba(168,85,247,0.4)] transition duration-300"
@@ -120,7 +120,7 @@ href={process.env.PUBLIC_URL + "/EL_HADDIOUI_Nouhaila_Fr.pdf"}
             </a>
 
             <a 
-              href="https://www.linkedin.com/in/nouhaila-el-haddioui/" 
+              href="https://www.linkedin.com/in/ramakant-yadav9161" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="w-12 h-12 rounded-full bg-black/50 border border-white/10 backdrop-blur-md flex items-center justify-center hover:text-purple-400 hover:border-purple-500/50 hover:shadow-[0_0_15px_rgba(168,85,247,0.4)] transition duration-300"
@@ -129,14 +129,14 @@ href={process.env.PUBLIC_URL + "/EL_HADDIOUI_Nouhaila_Fr.pdf"}
             </a>
 
             <a 
-              href="mailto:elhaddiouinouhaila@gmail.com" 
+              href="mailto:ramakantyadav9161@gmail.com" 
               className="w-12 h-12 rounded-full bg-black/50 border border-white/10 backdrop-blur-md flex items-center justify-center hover:text-purple-400 hover:border-purple-500/50 hover:shadow-[0_0_15px_rgba(168,85,247,0.4)] transition duration-300"
             >
               <FaEnvelope />
             </a>
 
             <a 
-              href="https://instagram.com/Nouhaila_elhd" 
+              href="https://instagram.com/ramakant_yadav9161" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="w-12 h-12 rounded-full bg-black/50 border border-white/10 backdrop-blur-md flex items-center justify-center hover:text-purple-400 hover:border-purple-500/50 hover:shadow-[0_0_15px_rgba(168,85,247,0.4)] transition duration-300"

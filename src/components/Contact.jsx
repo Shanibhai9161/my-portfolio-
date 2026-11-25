@@ -16,17 +16,17 @@ export default function Contact() {
   const contactCards = [
     {
       title: 'Direct Email',
-      value: 'nouhailaelhdioui@gmail.com',
+      value: 'ramakantbhai9161@gmail.com',
       icon: <FaEnvelope className="text-purple-400" />
     },
     {
       title: 'Phone Number',
-      value: '+212 627-419601',
+      value: '+919161187090',
       icon: <FaPhone className="text-purple-400" />
     },
     {
       title: 'Current Location',
-      value: 'Marrakech, Morocco',
+      value: 'Sohna, Gurgaon, Haryana, India',
       icon: <FaMapMarkerAlt className="text-purple-400" />
     }
   ];
@@ -38,7 +38,7 @@ export default function Contact() {
         {/* Form Card */}
         <div className="lg:col-span-7 order-2 lg:order-1">
           <form 
-            action="https://formsubmit.co/nouhailaelhdioui@gmail.com" 
+            action="https://formsubmit.co/ramakantbhai9161@gmail.com" 
             method="POST"
             className="p-6 sm:p-8 md:p-10 rounded-3xl border border-white/10 bg-white/5 backdrop-blur-md shadow-2xl space-y-6 hover:border-purple-500/40 transition-all duration-300"
           >
@@ -162,10 +162,10 @@ export default function Contact() {
 
           <div className="pt-4 border-t border-white/10 flex items-center gap-4">
             <span className="text-xs text-gray-400 font-mono">SOCIALS:</span>
-            <a href="https://www.linkedin.com/in/nouhaila-el-haddioui/" target="_blank" rel="noreferrer" className="px-4 py-2.5 rounded-xl bg-white/5 border border-white/10 hover:border-purple-500 hover:bg-purple-500/10 text-xs font-medium flex items-center gap-2 transition duration-300">
+            <a href="https://www.linkedin.com/in/ramakant-yadav9161" target="_blank" rel="noreferrer" className="px-4 py-2.5 rounded-xl bg-white/5 border border-white/10 hover:border-purple-500 hover:bg-purple-500/10 text-xs font-medium flex items-center gap-2 transition duration-300">
               <FaLinkedin className="text-purple-400 text-sm" /> LinkedIn
             </a>
-            <a href="https://github.com/Nouhailacodes" target="_blank" rel="noreferrer" className="px-4 py-2.5 rounded-xl bg-white/5 border border-white/10 hover:border-purple-500 hover:bg-purple-500/10 text-xs font-medium flex items-center gap-2 transition duration-300">
+            <a href="https://github.com/shanibhai9161" target="_blank" rel="noreferrer" className="px-4 py-2.5 rounded-xl bg-white/5 border border-white/10 hover:border-purple-500 hover:bg-purple-500/10 text-xs font-medium flex items-center gap-2 transition duration-300">
               <FaGithub className="text-purple-400 text-sm" /> GitHub
             </a>
           </div>
